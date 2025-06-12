@@ -16,7 +16,7 @@ function App() {
           <Header/>
           <Routes>  
             <Route path="/books" element={<GetBooks/>}/>
-            <Route path="/" element={<GetBooks/>}/>
+            <Route path="/boo" element={<GetBooks/>}/>
             <Route path="/addbook" element={<AddBook/>}/>
             <Route path="/editbook/:id" element={<EditBook/>}/>
             <Route path="/login" element={<Login/>}/>
